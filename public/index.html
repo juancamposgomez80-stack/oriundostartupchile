@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oriundo Startup Chile - Soluciones Digitales Innovadoras</title>
+    
+    <link rel="icon" type="image/x-icon" href="img/logo_2.png">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <meta name="description" content="Oriundo Startup Chile - Especialistas en desarrollo web, aplicaciones móviles, consultoría tecnológica y soluciones digitales para empresas.">
+    <meta name="keywords" content="desarrollo web, aplicaciones móviles, kotlin, android, consultoría tecnológica, Chile, startup">
+    <meta name="author" content="Oriundo Startup Chile">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="color-scheme" content="light dark">
+    
+    <meta property="og:title" content="Oriundo Startup Chile">
+    <meta property="og:description" content="Soluciones digitales innovadoras para tu negocio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://oriundo-startup.web.app">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav">
+            <div class="logo">
+                <div class="logo-icon" id="logo-container">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <span>Oriundo Startup Chile</span>
+            </div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#sobre-nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <div class="container">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="gradient-text">Digitalizamos</span> tu negocio
+                            <br>con tecnología de vanguardia
+                        </h1>
+                        <p class="hero-description">
+                            Transformamos ideas en soluciones digitales innovadoras. 
+                            Especialistas en desarrollo web, aplicaciones móviles y consultoría tecnológica.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#servicios" class="btn btn-primary">
+                                <i class="fas fa-rocket"></i>
+                                Nuestros Servicios
+                            </a>
+                            <a href="#contacto" class="btn btn-outline">
+                                <i class="fas fa-phone"></i>
+                                Contactar Ahora
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="floating-cards">
+                            <div class="card card-1">
+                                <i class="fas fa-code"></i>
+                                <span>Desarrollo Web</span>
+                            </div>
+                            <div class="card card-2">
+                                <i class="fab fa-android"></i>
+                                <span>Apps Móviles</span>
+                            </div>
+                            <div class="card card-3">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Consultoría</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-bg-animation"></div>
+        </section>
+
+        <section class="services" id="servicios">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nuestros Servicios</h2>
+                    <p>Soluciones digitales completas para impulsar tu negocio</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card" data-service="web">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Desarrollo Web</h3>
+                        <p>Creamos sitios web modernos, responsivos y optimizados para convertir visitantes en clientes.</p>
+                        <ul class="service-features">
+                            <li>Diseño responsivo y moderno</li>
+                            <li>Optimización SEO</li>
+                            <li>Integración con sistemas</li>
+                            <li>E-commerce personalizado</li>
+                        </ul>
+                        <button class="btn-service">Más información</button>
+                    </div>
+
+                    <div class="service-card" data-service="consultoria">
+                        <div class="service-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>Asesorías & Documentación</h3>
+                        <p>Análisis, documentación y mejora de procesos tecnológicos para optimizar tu negocio.</p>
+                        <ul class="service-features">
+                            <li>Diagramas de bases de datos</li>
+                            <li>Casos de uso detallados</li>
+                            <li>Modelado BPMN</li>
+                            <li>Auditoría de sistemas</li>
+                        </ul>
+                        <button class="btn-service">Más información</button>
+                    </div>
+
+                    <div class="service-card" data-service="investigacion">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Investigación Tecnológica</h3>
+                        <p>Análisis de tendencias y tecnologías emergentes para mantener tu empresa a la vanguardia.</p>
+                        <ul class="service-features">
+                            <li>Evaluación de tecnologías</li>
+                            <li>Estudios de mercado TI</li>
+                            <li>Recomendaciones técnicas</li>
+                            <li>Roadmaps tecnológicos</li>
+                        </ul>
+                        <button class="btn-service">Más información</button>
+                    </div>
+
+                    <div class="service-card" data-service="multiplataforma">
+                        <div class="service-icon">
+                            <i class="fab fa-kotlin"></i>
+                        </div>
+                        <h3>Desarrollo Multiplataforma</h3>
+                        <p>Aplicaciones robustas con Kotlin y Ktor para backend y servicios multiplataforma.</p>
+                        <ul class="service-features">
+                            <li>APIs REST con Ktor</li>
+                            <li>Microservicios escalables</li>
+                            <li>Integración de bases de datos</li>
+                            <li>Despliegue en la nube</li>
+                        </ul>
+                        <button class="btn-service">Más información</button>
+                    </div>
+
+                    <div class="service-card" data-service="android">
+                        <div class="service-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <h3>Desarrollo Android</h3>
+                        <p>Aplicaciones móviles nativas para Android con la última tecnología y mejores prácticas.</p>
+                        <ul class="service-features">
+                            <li>Apps nativas con Kotlin</li>
+                            <li>Material Design 3</li>
+                            <li>Arquitectura limpia</li>
+                            <li>Testing automatizado</li>
+                        </ul>
+                        <button class="btn-service">Más información</button>
+                    </div>
+
+                    <div class="service-card" data-service="especializadas">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Tecnologías Especializadas</h3>
+                        <p>Implementación de soluciones avanzadas con las últimas tecnologías del mercado.</p>
+                        <ul class="service-features">
+                            <li>Inteligencia Artificial</li>
+                            <li>Machine Learning</li>
+                            <li>Blockchain</li>
+                            <li>IoT y automatización</li>
+                        </ul>
+                        <button class="btn-service">Más información</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-stack" id="tecnologias">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Tecnologías que Dominamos</h2>
+                    <p>Stack tecnológico moderno para soluciones de vanguardia</p>
+                </div>
+                
+                <div class="tech-categories">
+                    <div class="tech-category">
+                        <h3>Frontend</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                            <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                            <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                            <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3>Backend</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item"><i class="fab fa-kotlin"></i><span>Kotlin</span></div>
+                            <div class="tech-item"><i class="fas fa-server"></i><span>Ktor</span></div>
+                            <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                            <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                        </div>
+                    </div>
+
+                    <div class="tech-category">
+                        <h3>Mobile & Cloud</h3>
+                        <div class="tech-icons">
+                            <div class="tech-item"><i class="fab fa-android"></i><span>Android</span></div>
+                            <div class="tech-item"><i class="fab fa-google"></i><span>Firebase</span></div>
+                            <div class="tech-item"><i class="fab fa-aws"></i><span>AWS</span></div>
+                            <div class="tech-item"><i class="fab fa-docker"></i><span>Docker</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="sobre-nosotros">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Sobre Oriundo Startup Chile</h2>
+                        <p class="about-lead">
+                            Somos una startup tecnológica chilena especializada en transformar 
+                            negocios tradicionales hacia la era digital.
+                        </p>
+                        <p>
+                            Nuestro equipo combina experiencia técnica con visión estratégica 
+                            para entregar soluciones que realmente impacten en el crecimiento 
+                            de nuestros clientes. Utilizamos las últimas tecnologías y mejores 
+                            prácticas de la industria.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Proyectos Completados</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Clientes Satisfechos</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" id="soporte-247">24/7</span>
+                                <span class="stat-label">Soporte Técnico</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="about-image">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <div class="container">
+                <div class="section-header">
+                    <h2>¿Listo para Digitalizar tu Negocio?</h2>
+                    <p>Contáctanos y descubre cómo podemos ayudarte</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Santiago, Chile</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p><a href="tel:+569XXXXXXXX">+56 9 8478 9390</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@oriundostartup.cl">juan.camposgomez80@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horarios</h4>
+                                <p>Lun - Vie: 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm" novalidate>
+    <h3>Solicitar Contacto</h3>
+    <div class="form-group">
+        <label for="nombre">Nombre Completo *</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+    
+    <div class="form-row">
+        <div class="form-group">
+            <label for="telefono">Teléfono *</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="servicio">Servicio de Interés</label>
+        <select id="servicio" name="servicio">
+            <option value="">Selecciona un servicio</option>
+            <option value="desarrollo-web">Desarrollo Web</option>
+            <option value="consultoria">Asesorías & Documentación</option>
+            <option value="investigacion">Investigación Tecnológica</option>
+            <option value="multiplataforma">Desarrollo Multiplataforma</option>
+            <option value="android">Desarrollo Android</option>
+            <option value="especializadas">Tecnologías Especializadas</option>
+            <option value="otro">Otro</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="comentario">Comentario / Descripción del Proyecto *</label>
+        <textarea id="comentario" name="comentario" rows="5" required 
+            placeholder="Cuéntanos sobre tu proyecto o necesidad..."></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary btn-full">
+        <i class="fas fa-paper-plane"></i>
+        Enviar Solicitud
+    </button>
+</form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <span>Oriundo Startup Chile</span>
+                    </div>
+                    <p>Transformamos ideas en soluciones digitales innovadoras.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#servicios">Desarrollo Web</a></li>
+                        <li><a href="#servicios">Consultoría</a></li>
+                        <li><a href="#servicios">Apps Móviles</a></li>
+                        <li><a href="#servicios">Investigación</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Tecnologías</h4>
+                    <ul>
+                        <li><a href="#tecnologias">Kotlin</a></li>
+                        <li><a href="#tecnologias">Android</a></li>
+                        <li><a href="#tecnologias">Ktor</a></li>
+                        <li><a href="#tecnologias">Firebase</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Santiago, Chile</li>
+                        <li><i class="fas fa-phone"></i> +56 9 8478 9390</li>
+                        <li><i class="fas fa-envelope"></i> juan.camposgomez@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Oriundo Startup Chile. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-firestore.js" type="module"></script>
+
+    <script src="js/firebase-init.js" type="module" defer></script>
+    <script src="js/main.js" type="module" defer></script>
+    <script src="js/animations.js" type="module" defer></script>
+    <script src="js/form-handler.js" type="module" defer></script>
+</body>
+</html>

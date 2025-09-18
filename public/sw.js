@@ -1,0 +1,1 @@
+// Este archivo es necesario para evitar el error de MIME type del Service Worker.
